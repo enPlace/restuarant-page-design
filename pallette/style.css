@@ -1,0 +1,23 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,4fr);
+    background-color: gray;
+    background-image: url("../design/pexels-amanda-klamrowski-1400255\ \(1\).jpg");
+    background-position: fit;
+    background-size: 100%;
+    grid-gap: 0px;
+			max-width: 1200px;
+			margin: 0 auto;
+}
+
+div{
+    padding: 50px;
+}
+.one{
+    background-color: #b38c2b;
+
+}
+.two{
+    background-color: #272727;
+}
